@@ -1,1 +1,3 @@
-console.log("Hello");
+import {solve} from "./scratch.js";
+
+solve();
