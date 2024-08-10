@@ -8,19 +8,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0774c0e9-e23f-40be-84a4-96fb766cdc6b" name="Changes" comment="Fresh solution">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode.Daily/CSharp/LeetFuncs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode.Daily/JavaScript/src/scratch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.Daily/JavaScript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.Daily/JavaScript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.Daily/JavaScript/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.Daily/JavaScript/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.Daily/JavaScript/src/shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.Daily/JavaScript/src/shell.js" afterDir="false" />
+    <list default="true" id="0774c0e9-e23f-40be-84a4-96fb766cdc6b" name="Changes" comment="Merge">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode.Daily/CSharp/LeetFuncs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.Daily/CSharp/LeetFuncs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode.Daily/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.Daily/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +43,9 @@
     &quot;accountId&quot;: &quot;d4cd270b-4255-4e9f-9185-c1b53c82f950&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/573461dc897731c11d6166574b77a8c3aabba220/src/libraries/System.Private.CoreLib/src/System/Span.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -54,28 +56,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.NodeShell.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Rebasing main",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "20.15.0",
-    "javascript.nodejs.core.library.typings.version": "20.14.14",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.LeetCode.Daily.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.NodeShell.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.14&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Node.js.NodeShell">
+}</component>
+  <component name="RunManager" selected=".NET Project.LeetCode.Daily">
     <configuration name="LeetCode.Daily" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/LeetCode.Daily/bin/Debug/net9.0/LeetCode.Daily.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode.Daily/bin/Debug/net9.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -85,7 +88,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net9.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -127,7 +130,9 @@
       <updated>1722589624191</updated>
       <workItem from="1722589625205" duration="4217000" />
       <workItem from="1722762338924" duration="297000" />
-      <workItem from="1722762782614" duration="510000" />
+      <workItem from="1722762782614" duration="3208000" />
+      <workItem from="1723030250497" duration="2914000" />
+      <workItem from="1723268781718" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="New solution">
       <option name="closed" value="true" />
@@ -153,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722763223949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge">
+      <option name="closed" value="true" />
+      <created>1722763438897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722763438897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +195,8 @@
     <MESSAGE value="New solution" />
     <MESSAGE value="Up and running as basic node with es" />
     <MESSAGE value="Fresh solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fresh solution" />
+    <MESSAGE value="Merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,6 +205,19 @@
           <url>file://$PROJECT_DIR$/LeetCode.Daily/JavaScript/src/scratch.js</url>
           <line>3</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LeetCode.Daily/Program.cs</url>
+          <line>8</line>
+          <properties documentPath="C:\Users\brady\projects\LeetCode\LeetCode.Daily\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="171" />
+            </startOffsets>
+            <endOffsets>
+              <option value="190" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
