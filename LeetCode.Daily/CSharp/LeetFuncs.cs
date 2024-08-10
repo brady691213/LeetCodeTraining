@@ -1,9 +1,52 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
 
 namespace Designer;
 
 public class LeetFuncs
 {
+    /// <summary>
+    /// Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+    /// </summary>
+    /// <remarks>
+    /// https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150
+    /// </remarks>
+    public static void RotateArray(int[] nums, int k)
+    {
+        if (nums.Length < 2) return;
+        var start = Math.Min(nums.Length - k, nums.Length);
+        var rot = new int[nums.Length].AsSpan();
+        for (int i = 0; i < nums.Length; i++, start = (start + 1) % nums.Length)
+        {
+            rot[i] = nums[start];
+        }
+
+        var retSpan = nums.AsSpan();
+        for (int i = 0; i < nums.Length; i++)
+        {
+            retSpan[i] = rot[i];
+        }
+    }
+
+
+    /// <summary>
+    /// Given an array nums of size n, return the majority element. The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+    /// </summary>
+    /// <remarks>
+    /// Could you solve the problem in linear time and in O(1) space?
+    /// https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+    /// </remarks>
+    public static int MajorityElement(int[] nums)
+    {
+        return nums
+            .GroupBy(num => num)
+            .Where(ng => ng.Count() > nums.Length / 2)
+            .First()
+            .Key;
+    }
+
     /// <summary>
     /// Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice. The relative order of the elements should be kept the same.
     /// </summary>
@@ -12,21 +55,18 @@ public class LeetFuncs
     /// </remarks>
     public static int RemoveMostDuplicates(int[] nums)
     {
+        // [0,0,1,1,1,1,2,3,3]
+        // [0,0,1,1,
         var numSpan = nums.AsSpan();
-        var pos = 0;
-        for (int i = 0; i < numSpan.Length; i++)
+        var pos = Math.Min(nums.Length, 1);
+        for (int i = 2; i < numSpan.Length; i++)
         {
-            int count = 0;
-            for (int c = 0; c < pos; c++)
+            var atI = numSpan[i];
+            var atP = numSpan[i - 1];
+            if (numSpan[i] != numSpan[i - 1])
             {
-                if (numSpan[c] == numSpan[i])
-                {
-                    count += 1;
-                    if (count > 1);
-                }
+                numSpan[pos++] = numSpan[i];
             }
-
-            if (count <= 1) numSpan[pos++] = numSpan[i];
         }
 
         return pos;

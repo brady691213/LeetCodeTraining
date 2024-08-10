@@ -2,8 +2,8 @@
 
 using Designer;
 
-int[] input = [0,0,1,1,1,1,2,3,3];
+int[] input = [1,2];
 
-var actual = LeetFuncs.RemoveMostDuplicates(input);
+LeetFuncs.RotateArray(input, 3);
 
-var check = actual;
+var check = input;
